@@ -1,0 +1,28 @@
+:root {
+  --accent:#ed9751;
+  --bg:#131b29;
+  --surface:#1c2839;
+  --ink:#f6f8fa;
+  --muted:#b7c2d1;
+  --line:#354358;
+  --hero:#111925
+}
+h1,h2 {
+  font-weight:800
+}
+.demo-logo {
+  font-style:italic
+}
+.demo-hero-image {
+  border-radius:0
+}
+.demo-button {
+  border-radius:2px!important;
+  color:#18202b!important
+}
+.item-number {
+  font-weight:700
+}
+.demo-hero {
+  border-bottom:4px solid var(--accent)
+}

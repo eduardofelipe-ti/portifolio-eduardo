@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Converse com Eduardo Felipe sobre criação de sites, landing pages e presença digital para o seu negócio.">
+<meta name="theme-color" content="#5343d4">
+<title>Contato e orçamento | Eduardo Felipe</title>
+<link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/config.js" defer>
+</script>
+<script src="assets/js/main.js" defer>
+</script>
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+<header class="header">
+<div class="container nav-wrap">
+<a class="brand" href="index.html" aria-label="Eduardo Felipe, início">
+<span class="brand-icon">ef<span>.</span>
+</span>
+<span>eduardo felipe<span class="brand-sub">DESENVOLVIMENTO WEB</span>
+</span>
+</a>
+<button class="menu-toggle" type="button" aria-label="Abrir menu" aria-controls="nav" aria-expanded="false">☰</button>
+<nav id="nav" aria-label="Menu principal">
+<a href="index.html">Home</a>
+<a href="servicos.html">Serviços</a>
+<a href="portfolio.html">Portfólio</a>
+<a href="sobre.html">Sobre</a>
+<a href="index.html#como-funciona">Como funciona</a>
+<a class="button nav-cta" href="contato.html" >Vamos conversar <span aria-hidden="true">↗</span>
+</a>
+</nav>
+</div>
+</header>
+<main id="conteudo">
+<section class="container page-intro">
+<span class="eyebrow">CONTATO</span>
+<h1>Vamos conversar<br>
+<span>sobre seu projeto?</span>
+</h1>
+<p>Conte um pouco sobre sua empresa e o que você precisa. Posso analisar sua necessidade e sugerir uma solução.</p>
+</section>
+<section class="container contact-layout">
+<div id="canais">
+<h2>O primeiro passo é um olá.</h2>
+<p>Não precisa chegar com tudo decidido. Podemos começar pelo seu negócio e pelas informações que seus clientes costumam procurar.</p>
+<a class="button primary" href="#formulario" data-whatsapp>Falar pelo WhatsApp <span aria-hidden="true">↗</span>
+</a>
+<p class="channel-status" data-contact-status>
+</p>
+<div class="contact-channels">
+<a href="#formulario" data-social="email">
+<span>E-mail</span>
+<strong data-email-label>Consultar disponibilidade</strong> ↗</a>
+<a href="https://www.linkedin.com/in/eduardo-felipe-de-oliveira-ti/" data-social="linkedin" target="_blank" rel="noopener noreferrer">
+<span>LinkedIn</span>
+<strong>Eduardo Felipe de Oliveira</strong> ↗</a>
+<a href="#formulario" data-social="github">
+<span>GitHub</span>
+<strong data-github-label>Perfil em preparação</strong> ↗</a>
+</div>
+<div class="contact-note">
+<h3>Um orçamento para cada projeto.</h3>
+<p>O valor depende da estrutura, do conteúdo e dos recursos necessários. Tudo é conversado antes de começar.</p>
+</div>
+</div>
+<form class="contact-form" id="formulario" name="contato" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="obrigado.html">
+<input type="hidden" name="form-name" value="contato">
+<p class="honeypot" aria-hidden="true">
+<label>Não preencha <input name="bot-field" tabindex="-1" autocomplete="off">
+</label>
+</p>
+<h2>Me conte sua ideia</h2>
+<noscript>
+<p>Ative o JavaScript para usar este formulário nesta versão. Você também pode entrar em contato pelo LinkedIn.</p>
+</noscript>
+<div class="form-row">
+<label>Nome <span>*</span>
+<input name="nome" autocomplete="name" required placeholder="Como posso chamar você?">
+</label>
+<label>Empresa<input name="empresa" autocomplete="organization" placeholder="Nome do seu negócio">
+</label>
+</div>
+<label>WhatsApp ou e-mail <span>*</span>
+<input name="contato" required placeholder="Como posso retornar seu contato?" minlength="5">
+</label>
+<label>Tipo de site <span>*</span>
+<select name="tipo" required>
+<option value="">Selecione uma opção</option>
+<option>Landing page</option>
+<option>Site institucional</option>
+<option>Presença digital</option>
+<option>Ainda não sei, preciso de orientação</option>
+</select>
+</label>
+<label>Mensagem <span>*</span>
+<textarea name="mensagem" rows="5" required placeholder="O que você faz e o que gostaria de apresentar no site?">
+</textarea>
+</label>
+<p class="form-note">Seus dados serão usados para conversar sobre este pedido.</p>
+<button type="submit" class="button primary">Enviar mensagem ↗</button>
+<p class="form-feedback" role="status" aria-live="polite">
+</p>
+<button type="button" class="button secondary copy-message" hidden>Copiar minha mensagem</button>
+</form>
+</section>
+</main>
+<footer class="footer">
+<div class="container footer-top">
+<div>
+<a class="brand" href="index.html">
+<span class="brand-icon">ef<span>.</span>
+</span>
+<span>Eduardo Felipe de Oliveira<span class="brand-sub">DESENVOLVIMENTO WEB</span>
+</span>
+</a>
+<p>Sites feitos com cuidado.<br>Atendimento direto, do início à publicação.</p>
+</div>
+<div class="footer-links">
+<a href="index.html">Home</a>
+<a href="servicos.html">Serviços</a>
+<a href="portfolio.html">Portfólio</a>
+<a href="sobre.html">Sobre</a>
+<a href="contato.html">Contato</a>
+</div>
+<div class="footer-links">
+<a href="https://www.linkedin.com/in/eduardo-felipe-de-oliveira-ti/" data-social="linkedin" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+<a href="contato.html#canais" data-social="github">GitHub ↗</a>
+<a href="contato.html" data-whatsapp>WhatsApp ↗</a>
+</div>
+</div>
+<div class="container footer-bottom">
+<span>© <span data-year>2026</span> Eduardo Felipe de Oliveira.</span>
+<span>Feito para aproximar negócios e pessoas.</span>
+</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,34 @@
+:root {
+  --accent:#cee96c;
+  --bg:#fcfdf8;
+  --surface:#eff3e7;
+  --ink:#213e2d;
+  --muted:#5e705f;
+  --line:#d6dfcc;
+  --hero:#183e2b
+}
+.demo-hero {
+  color:white
+}
+.demo-hero p {
+  color:#d0dfd3
+}
+.demo-hero .demo-eyebrow {
+  color:var(--accent)
+}
+.demo-button {
+  color:#203927!important;
+  background:var(--accent)
+}
+.demo-eyebrow,.demo-text-link {
+  color:#446929
+}
+.demo-logo span {
+  font-weight:400
+}
+.demo-hero-image {
+  border-radius:70px 0 70px 0
+}
+.item-number {
+  color:#45692f
+}

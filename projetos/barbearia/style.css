@@ -1,0 +1,25 @@
+:root {
+  --accent:#c7a470;
+  --bg:#1d1b18;
+  --surface:#28251f;
+  --ink:#f5eee3;
+  --muted:#c4bbae;
+  --line:#433e35;
+  --hero:#171613
+}
+h1,h2 {
+  font-family:Georgia,serif;
+  font-weight:400
+}
+.demo-hero-image {
+  object-position:center 48%
+}
+.demo-logo {
+  letter-spacing:2px
+}
+.theme-barbearia .demo-button {
+  color:#231d15
+}
+.theme-barbearia .demo-cards article {
+  border-bottom:2px solid var(--accent)
+}

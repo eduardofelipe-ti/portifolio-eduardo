@@ -1,0 +1,25 @@
+:root {
+  --accent:#26796e;
+  --bg:#fff;
+  --surface:#edf6f2;
+  --ink:#214c44;
+  --muted:#59756d;
+  --line:#cddfd9;
+  --hero:#f1f8f4
+}
+h1,h2 {
+  font-family:Georgia,serif;
+  font-weight:400
+}
+.demo-hero-image {
+  border-radius:120px 12px 12px 12px
+}
+.demo-logo {
+  font-weight:500
+}
+.demo-cards article {
+  border-radius:15px
+}
+.team-initials {
+  border-radius:50%
+}

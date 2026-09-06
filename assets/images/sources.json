@@ -1,0 +1,50 @@
+{
+  "barber.jpg": {
+    "source_page": "https://unsplash.com/s/photos/barber-shop",
+    "image_url": "https://images.unsplash.com/photo-1536520002442-39764a41e987",
+    "description": "Warm barber interior. Source is portrait, broad crop works.",
+    "reuse": "Unsplash free stock photo. Standard Unsplash License; source attribution appreciated. Avoid suggesting photographer or photographed business endorses demo."
+  },
+  "barber-detail.jpg": {
+    "source_page": "https://unsplash.com/photos/a-barber-shop-with-several-chairs-and-mirrors-D7ly5lUDTCY",
+    "image_url": "https://images.unsplash.com/photo-1672257493563-0dac80e22b7d",
+    "description": "Copper barber chairs, landscape.",
+    "reuse": "Unsplash free stock photo. Standard Unsplash License; source attribution appreciated. Avoid suggesting photographer or photographed business endorses demo."
+  },
+  "clinic.jpg": {
+    "source_page": "https://unsplash.com/photos/LQ698TTvGpA",
+    "image_url": "https://images.unsplash.com/photo-1629909615184-74f495363b67",
+    "description": "Bright turquoise dental office.",
+    "reuse": "Unsplash free stock photo. Standard Unsplash License; source attribution appreciated. Avoid suggesting photographer or photographed business endorses demo."
+  },
+  "workshop.jpg": {
+    "source_page": "https://unsplash.com/s/photos/car-repair-shop",
+    "image_url": "https://images.unsplash.com/photo-1530046614490-89e6f776b83b",
+    "description": "Industrial workshop wide interior, no visible car.",
+    "reuse": "Unsplash free stock photo. Standard Unsplash License; source attribution appreciated. Avoid suggesting photographer or photographed business endorses demo."
+  },
+  "workshop-detail.jpg": {
+    "source_page": "https://unsplash.com/photos/KhF58h0hTbc",
+    "image_url": "https://images.unsplash.com/photo-1714589214569-f235c49f691f",
+    "description": "Dark tools and workshop window.",
+    "reuse": "Unsplash free stock photo. Standard Unsplash License; source attribution appreciated. Avoid suggesting photographer or photographed business endorses demo."
+  },
+  "mechanic.jpg": {
+    "source_page": "https://unsplash.com/s/photos/car-repair",
+    "image_url": "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e",
+    "description": "Hands repairing car engine. Prefer for car service hero.",
+    "reuse": "Unsplash free stock photo. Standard Unsplash License; source attribution appreciated. Avoid suggesting photographer or photographed business endorses demo."
+  },
+  "solar.jpg": {
+    "source_page": "https://unsplash.com/photos/513dBrMJ_5w",
+    "image_url": "https://images.unsplash.com/photo-1509391366360-2e959784a276",
+    "description": "Solar panels green field and blue sky.",
+    "reuse": "Unsplash free stock photo. Standard Unsplash License; source attribution appreciated. Avoid suggesting photographer or photographed business endorses demo."
+  },
+  "solar-roof.jpg": {
+    "source_page": "https://unsplash.com/photos/a-house-with-a-solar-panel-on-the-roof-tt8HJ8tx8Mo",
+    "image_url": "https://images.unsplash.com/photo-1687865014576-9ae3570f550a",
+    "description": "Home rooftop solar installation.",
+    "reuse": "Unsplash free stock photo. Standard Unsplash License; source attribution appreciated. Avoid suggesting photographer or photographed business endorses demo."
+  }
+}
