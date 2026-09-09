@@ -1,7 +1,7 @@
 "use strict";
 const config = window.SITE_CONFIG || {};
 const phone = /^\d{12,15}$/.test(config.whatsapp || "") ? config.whatsapp : "";
-const greeting = "Olá Eduardo, encontrei seu site e gostaria de conversar sobre a criação de um site para minha empresa.";
+const greeting = "Oi, Eduardo! Vi seus exemplos e queria conversar sobre um site para o meu negócio.";
 const menu = document.querySelector(".menu-toggle");
 const nav = document.querySelector("#nav");
 if (menu && nav) {
@@ -21,7 +21,7 @@ document.querySelectorAll("[data-social]").forEach(el => {
 if (config.email) document.querySelectorAll("[data-email-label]").forEach(el => el.textContent = config.email);
 if (config.github) document.querySelectorAll("[data-github-label]").forEach(el => el.textContent = "Ver projetos no GitHub");
 const availability = document.querySelector("[data-contact-status]");
-if (availability && !phone) availability.textContent = config.netlifyForms ? "WhatsApp em preparação. Use o formulário ou fale comigo pelo LinkedIn." : "WhatsApp e envio de mensagens em preparação. Você já pode falar comigo pelo LinkedIn.";
+if (availability && !phone) availability.textContent = config.netlifyForms ? "Enquanto o WhatsApp não está disponível, você pode usar o formulário ou me chamar pelo LinkedIn." : "O WhatsApp e o formulário ainda não estão recebendo mensagens. Por enquanto, pode me chamar pelo LinkedIn.";
 const form = document.querySelector("#formulario");
 if (form) {
  const feedback = form.querySelector(".form-feedback"); const copy = form.querySelector(".copy-message"); let prepared = "";
@@ -30,7 +30,7 @@ if (form) {
   event.preventDefault(); const data = new FormData(form);
   prepared = `Olá Eduardo! Sou ${data.get("nome")}\nEmpresa: ${data.get("empresa") || "Não informada"}\nContato: ${data.get("contato")}\nTipo de site: ${data.get("tipo")}\n\n${data.get("mensagem")}`;
   if (phone) { window.open("https://wa.me/" + phone + "?text=" + encodeURIComponent(prepared), "_blank", "noopener,noreferrer"); feedback.textContent = "A conversa foi aberta no WhatsApp. Confirme o envio por lá para concluir seu pedido."; }
-  else { feedback.textContent = "Sua mensagem ainda não foi enviada: este formulário está em preparação. Copie o texto e envie pelo LinkedIn de Eduardo."; }
+  else { feedback.textContent = "O formulário ainda não está recebendo mensagens. Você pode copiar o que escreveu e me enviar pelo LinkedIn."; }
   copy.hidden = false;
  });
  copy.addEventListener("click", async () => {
